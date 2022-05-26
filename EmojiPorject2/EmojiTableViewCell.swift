@@ -8,10 +8,9 @@
 import UIKit
 
 class EmojiTableViewCell: UITableViewCell {
-
+    // создаю связи с лайблами на маинсториборд 
     @IBOutlet weak var emojiLabel: UILabel!
     @IBOutlet weak var nameLable: UILabel!
-    
     @IBOutlet weak var descriptionLabel: UILabel!
     
     
